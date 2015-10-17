@@ -32,6 +32,25 @@ header h1 {
   background-image: url(http://data.whicdn.com/images/159902182/superthumb.jpg);
 }
 
+/* Added this for W1D2 exercise 2 */
+aside p {
+  font-family: Impact, Charcoal, sans-serif;
+  text-decoration: underline;
+  color: purple;
+  line-height: 125%;
+}
+
+/* Added this for W1D2 exercise 2 */
+.green {
+  color: #90D4C4
+}
+
+/* Added this for W1D2 exercise 2 */
+ul {
+  list-style-image:url(http://www.shrewsburypetcare.co.uk/wp-content/uploads/2013/07/paw_bullet_small.png);
+  list-style-position: outside;
+}
+
 body {
   background-color: #8E2D66;
   padding: 20px;
