@@ -1,0 +1,94 @@
+header {
+  padding-top: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 5px;
+}
+
+p {
+  color: purple;
+  background-color: pink;
+  border-style: dashed;
+}
+
+#top {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 5em;
+  color: pink;
+  outline: 2px solid;
+  outline-color: black;
+  background-image: url(http://data.whicdn.com/images/159902182/superthumb.jpg);
+}
+
+body {
+  background-color: #8E2D66;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header, aside, article {
+  padding: 8px;
+  background-color: #DB6FAE;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px #50002F;
+}
+
+section, aside {
+  float: left;
+}
+
+section {
+  max-width: 70%;
+}
+
+aside {
+  min-width: 27%;
+  margin-left: 10px;
+  background-color: #620039;
+}
+
+h1, h2, h3, h4 {
+  color: #50002F;
+}
+
+aside section {
+  background-color: #DB6FAE;
+  border-radius: 8px;
+  float: none;
+  min-height: 150px;
+  max-width: 100%;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px #50002F;
+}
+
+aside section h4 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+section header h2, section header h3, section header h4 {
+  margin: 1px;
+}
+
+section header h3 {
+  font-style: italic;
+  font-weight: 100;
+}
+
+article p {
+  color: #50002F;
+}
+
+article span {
+  text-decoration: underline;
+}

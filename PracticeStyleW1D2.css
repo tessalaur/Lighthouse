@@ -1,0 +1,29 @@
+section {
+  background-color: #edf04a;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px;
+}
+
+.red-header {
+  color: red;
+}
+
+#fav-birds {
+  background-color: purple;
+  margin: 10px;
+}
+
+.endangered {
+  color: pink;
+}
+
+footer {
+  color: orange;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+footer p {
+  background-color: green;
+}
