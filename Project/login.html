@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html>
+    
+    <head>
+        <title>Log In</title>
+
+        <link rel="stylesheet" href="public/stylesheets/style.css">
+
+    </head>
+
+    <body>
+
+    <img src="public/images/bccsnlogo.jpg">
+
+    <br>
+
+    <h1 align="center">B.C. Cetacean Sightings Network</h1>
+
+    <div>
+
+    <br>
+
+    <h2 align="center">Report Sightings Online</h2>
+
+    <p>Welcome to our online sighting form. The sightings you submit will be analyzed to gain valuable information about species distribution patterns and aid in future recovery and management plans for species at risk. Questions? Give us a shout at 1.866.I.SAW.ONE or send us an <a href="mailto:sightings@vanaqua.org">email.</a></p>
+
+    <br>
+
+    </div>
+
+    <br>
+
+    <div class="form">
+
+    <br>
+
+      <form method="POST" action="/login">
+
+      <p><h3>Log in to submit a sighting:</h3></p>
+
+        <table align="center">
+
+        <tr>
+        <td align="left">
+        <label for="emaillog">Email:</label>
+        </td>
+        <td align="left">
+        <input type="email" name="emaillog" id="emaillog">
+        </td>
+        </tr>
+
+        <tr>
+        <td align="left">
+        <label for="passwordlog">Password:</label>
+        </td>
+        <td align="left">
+        <input type="password" name="passwordlog" id="passwordlog">
+        </td>
+        </tr>
+
+        </table>
+
+        <br>
+
+        <input type="submit" value="Log In">
+
+      </form>
+
+      <br>
+
+      </div>
+
+      <br>
+
+      <div class="form">
+
+      <br>
+
+      <form method="POST" action="/signup">
+
+      <p><h3>First time reporting? Sign up here:</h3></p>
+
+        <table align="center">
+
+        <tr>
+        <td align="left">
+        <label for="firstname">First name:</label>
+        </td>
+        <td align="left">
+        <input type="text" name="firstname" id="firstname">
+        </td>
+        </tr>
+
+        <tr>
+        <td align="left">
+        <label for="lastname">Last name:</label>
+        </td> 
+        <td align="left">
+        <input type="text" name="lastname" id="lastname">
+        </td>
+        </tr>
+
+
+        <tr>
+        <td align="left">
+        <label for="emailsign">Email:</label>
+        </td>
+        <td align="left">
+        <input type="email" name="emailsign" id="emailsign">
+        </td>
+        </tr>
+
+
+        <tr>
+        <td align="left">
+        <label for="passwordsign">Password:</label>
+        </td>
+        <td align="left">
+        <input type="password" name="passwordsign" id="passwordsign">
+        </td>
+        </tr>
+
+        </table>
+
+        <br>
+
+        <input type="submit" value="Sign Up">
+
+      </form>
+
+      <br>
+
+      </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,30 @@
+.container {
+  border: 1px solid black;
+  width:1000px;
+  height: 1000px;
+  }
+
+.relative {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.absolute {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.fixed {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+}
