@@ -6,13 +6,17 @@
 
   <title>Observer Profile</title>
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
   <link rel="stylesheet" href="public/stylesheets/profilestyle.css">
 
 </head>
 
 <body>
 
-  <img src="public/images/bccsnlogo.jpg">
+    <br>
+
+    <img src="public/images/bccsnlogo.jpg">
 
     <h3 align="center">B.C. Cetacean Sightings Network</h3>
 
@@ -24,49 +28,35 @@
 
       <form method="POST" action="/profile/edit">
 
-        <table align="center">
+      <div class="form-group">
 
-        <tr>
-        <td align="left">
-        <label for="firstnameprof">First name:</label>
-        </td>
-        <td align="left">
-        <input type="text" name="firstnameprof" id="firstnameprof" placeholder="First name">
-        </td>
-        </tr>
+        <label for="firstnameprof">First name</label>
+        <input type="text" class="form-control" id="firstnameprof" placeholder="First name">
 
-        <tr>
-        <td align="left">
-        <label for="lastnameprof">Last name:</label>
-        </td>
-        <td align="left">
-        <input type="text" name="lastnameprof" id="lastnameprof" placeholder="Last name">
-        </td>
-        </tr>
+      </div>
 
-        <tr>
-        <td align="left">
-        <label for="emailprof">Email:</label>
-        </td>
-        <td align="left">
-        <input type="email" name="emailprof" id="emailprof" placeholder="Email">
-        </td>
-        </tr>
+      <div class="form-group">
 
-        <tr>
-        <td align="left">
-        <label for="passwordprof">Password:</label>
-        </td>
-        <td align="left">
-        <input type="password" name="passwordprof" id="passwordprof" placeholder="Password">
-        </td>
-        </tr>
+        <label for="lastnameprof">Last name</label>
+        <input type="text" class="form-control" id="lastnameprof" placeholder="Last name">
 
-        </table>
+      </div>
 
-        <br>
+      <div class="form-group">
 
-        <input type="submit" value="Save Changes">
+        <label for="emailprof">Email address</label>
+        <input type="email" class="form-control" id="emailprof" placeholder="Email">
+
+      </div>
+
+      <div class="form-group">
+   
+        <label for="passwordprof">Password</label>
+        <input type="password" class="form-control" id="passwordprof" placeholder="Password">
+  
+      </div>
+
+        <button type="button" class="btn btn-primary">Save</button>
 
       </form>
 
@@ -74,7 +64,6 @@
 
       </div>
 
-
-</body>
+    </body>
 
 </html>

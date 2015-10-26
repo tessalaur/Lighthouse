@@ -3,13 +3,18 @@
 <html>
     
     <head>
+    
         <title>Report a Sighting</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
         <link rel="stylesheet" href="public/stylesheets/style.css">
 
     </head>
 
     <body>
+
+    <br>
 
     <img src="public/images/bccsnlogo.jpg">
 
@@ -39,99 +44,31 @@
 
       <p><h3>Log in to submit a sighting:</h3></p>
 
-        <table align="center">
+      <div class="form-group">
 
-        <tr>
-        <td align="left">
-        <label for="emaillog">Email:</label>
-        </td>
-        <td align="left">
-        <input type="email" name="emaillog" id="emaillog" placeholder="Email">
-        </td>
-        </tr>
+        <label for="emaillogin">Email address</label>
+        <input type="email" class="form-control" id="emaillogin" placeholder="Email">
 
-        <tr>
-        <td align="left">
-        <label for="passwordlog">Password:</label>
-        </td>
-        <td align="left">
-        <input type="password" name="passwordlog" id="passwordlog" placeholder="Password">
-        </td>
-        </tr>
+      </div>
 
-        </table>
+      <div class="form-group">
+   
+        <label for="passwordlogin">Password</label>
+        <input type="password" class="form-control" id="passwordlogin" placeholder="Password">
+  
+      </div>
 
-        <br>
-
-        <input type="submit" value="Log In">
+        <button type="button" class="btn btn-primary">Log In</button>
 
       </form>
 
       <br>
 
-      </div>
-
-      <br>
-
-      <div class="form">
-
-      <br>
-
-      <form method="POST" action="/signup">
-
-      <p><h3>First time reporting? Sign up here:</h3></p>
-
-        <table align="center">
-
-        <tr>
-        <td align="left">
-        <label for="firstname">First name:</label>
-        </td>
-        <td align="left">
-        <input type="text" name="firstname" id="firstname" placeholder="First name">
-        </td>
-        </tr>
-
-        <tr>
-        <td align="left">
-        <label for="lastname">Last name:</label>
-        </td> 
-        <td align="left">
-        <input type="text" name="lastname" id="lastname" placeholder="Last name">
-        </td>
-        </tr>
-
-
-        <tr>
-        <td align="left">
-        <label for="emailsign">Email:</label>
-        </td>
-        <td align="left">
-        <input type="email" name="emailsign" id="emailsign" placeholder="Email">
-        </td>
-        </tr>
-
-
-        <tr>
-        <td align="left">
-        <label for="passwordsign">Password:</label>
-        </td>
-        <td align="left">
-        <input type="password" name="passwordsign" id="passwordsign" placeholder="Password">
-        </td>
-        </tr>
-
-        </table>
-
-        <br>
-
-        <input type="submit" value="Sign Up">
-
-      </form>
-
-      <br>
+      <p class="signup">First time using the online report form? Sign up for an account <a href="signup.html">here</a>.</p>
 
       </div>
+
+      <br>
 
     </body>
 

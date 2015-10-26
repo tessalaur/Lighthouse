@@ -47,5 +47,19 @@ h1 {
 
 body {
   color: #2E5C8A;
+  background-color: transparent;
 }
 
+input {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  text-align: left;
+  width: 50%;
+  margin-bottom: 0px;
+}
+
+.signup {
+  text-align: center;
+}

@@ -1,5 +1,5 @@
 html {
-  background: url("http://www.wildwomenexpeditions.com/wp-content/uploads/2015/03/Great-Bear-Rainforest_IanMcAllister-1024x676.jpg");
+  background: url("http://images7.alphacoders.com/458/458517.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -58,8 +58,9 @@ body {
   margin-bottom: 0px;
 }
 
-.col-xs-3 {
+/*.col-xs-3 {
   text-align: left;
   width: 50%;
   margin-bottom: 0px;
-}
+}*/
+
